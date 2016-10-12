@@ -1,0 +1,38 @@
+
+Call:  glm(formula = spam ~ ., data = Xtrain)
+
+Coefficients:
+               (Intercept)              word_freq_make           word_freq_address               word_freq_all  
+                 1.945e-01                  -2.284e-02                  -9.891e-03                   3.140e-02  
+              word_freq_3d               word_freq_our              word_freq_over            word_freq_remove  
+                 8.510e-03                   8.131e-02                   7.859e-02                   2.074e-01  
+        word_freq_internet             word_freq_order              word_freq_mail           word_freq_receive  
+                 1.113e-01                   7.451e-02                   1.440e-02                   6.604e-02  
+            word_freq_will            word_freq_people            word_freq_report         word_freq_addresses  
+                -2.235e-02                   3.960e-03                   2.848e-02                   4.247e-02  
+            word_freq_free          word_freq_business             word_freq_email               word_freq_you  
+                 8.100e-02                   3.723e-02                   6.386e-02                   1.591e-02  
+          word_freq_credit              word_freq_your              word_freq_font               word_freq_000  
+                 5.995e-02                   4.995e-02                   4.716e-02                   1.924e-01  
+           word_freq_money                word_freq_hp               word_freq_hpl            word_freq_george  
+                 1.334e-01                  -1.989e-02                  -2.147e-02                  -1.171e-02  
+             word_freq_650               word_freq_lab              word_freq_labs            word_freq_telnet  
+                -6.416e-03                  -6.520e-03                  -6.527e-02                  -1.347e-02  
+             word_freq_857              word_freq_data               word_freq_415                word_freq_85  
+                -6.500e-02                  -5.807e-02                   9.570e-02                  -2.946e-02  
+      word_freq_technology              word_freq_1999             word_freq_parts                word_freq_pm  
+                 3.930e-02                  -1.390e-02                  -3.678e-02                  -4.173e-02  
+          word_freq_direct                word_freq_cs           word_freq_meeting          word_freq_original  
+                 5.296e-02                  -2.196e-02                  -3.439e-02                  -5.929e-02  
+         word_freq_project                word_freq_re               word_freq_edu             word_freq_table  
+                -3.936e-02                  -3.381e-02                  -4.048e-02                  -1.534e-01  
+      word_freq_conference               `char_freq_;`               `char_freq_(`               `char_freq_[`  
+                -5.940e-02                  -1.388e-01                  -5.078e-02                  -7.061e-02  
+             `char_freq_!`               `char_freq_$`                  char_freq_  capital_run_length_average  
+                 4.910e-02                   2.494e-01                   2.730e-02                   4.895e-04  
+capital_run_length_longest    capital_run_length_total  
+                 5.005e-05                   6.920e-05  
+
+Degrees of Freedom: 3067 Total (i.e. Null);  3010 Residual
+Null Deviance:	    732.6 
+Residual Deviance: 323.2 	AIC: 1920
