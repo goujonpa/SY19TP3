@@ -6,6 +6,7 @@
 rm(list=ls())
 library(MASS)
 library(caTools)
+library(pROC)
 
 # >>> First read spambase.names
 # >>> Load data
@@ -52,5 +53,11 @@ lda.fit$y <- Xtrain$spam
 lda.conf = confusion(Xtrain, lda.fit, "lda")
 
 # >>> COR curves
+
+lda.roc = roc(Xtrain$spam, as.vector(predict(lda.fit, Xtrain)$x))
+plot(lda.roc)
+
+glm.roc = roc(Xtrain$spam, predict(glm.fit, Xtrain, type="link"))
+plot(glm.roc, add=T, col="Red")
 
 
